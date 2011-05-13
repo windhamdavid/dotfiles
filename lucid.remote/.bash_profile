@@ -4,4 +4,6 @@ export PATH=/home/david/.rvm/gems/ruby-1.9.2-p180@ror31/bin:/home/david/.rvm/gem
 PATH=$PATH:~/drush
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 
-
+if [ -f ~/.bashrc ]; then
+   source ~/.bashrc
+fi
