@@ -1,8 +1,11 @@
 export PATH=/usr/local/mysql/bin:$PATH
 PATH=/usr/local/bin:$PATH
+PATH=/usr/local/mongodb/bin:$PATH
 PATH=$PATH:/Users/david/drush
 [[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh" # Load nvm into shell session
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+alias wget="curl -O"
+
 
 # Colors
 export TERM=xterm-color
@@ -25,4 +28,4 @@ export COLOR_LIGHT_PURPLE='\033[1;35m'
 export COLOR_BROWN='\033[0;33m'
 export COLOR_YELLOW='\033[1;33m'
 export COLOR_GRAY='\033[1;30m'
-export COLOR_LIGHT_GRAY='\033[0;37m'
+export COLOR_LIGHT_GRAY='\033[0;37m'alias wget="curl -O"
