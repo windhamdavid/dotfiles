@@ -1,0 +1,4 @@
+export PATH="~/drush:/usr/local/php5/bin/php:/usr/local/bin:/usr/local/git/bin:/usr/local/sbin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH=$PATH:/usr/local/bin
+PATH=/usr/local/bin:/usr/local/mysql/bin:$PATH
+alias php=/usr/local/php5/bin/php
