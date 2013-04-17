@@ -1,4 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
 # ZSH_THEME="random"
 # ZSH_THEME="flazz"
