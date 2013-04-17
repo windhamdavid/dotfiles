@@ -1,4 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
 # ZSH_THEME="random"
