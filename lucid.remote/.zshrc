@@ -1,16 +1,19 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
+ [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+ [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+ 
+ export NODE_PATH="/home/david/local/node/lib/node_modules"
+ export PATH=$HOME/local/node/bin:$PATH
+ PATH=$PATH:~/drush
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
  # ZSH_THEME="random"
  # ZSH_THEME="flazz"
  # ZSH_THEME="rbates"
 ZSH_THEME="dpoggi"
  # ZSH_THEME="kafeitu"
  # ZSH_THEME="fino"
+
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
