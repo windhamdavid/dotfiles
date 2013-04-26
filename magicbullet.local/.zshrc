@@ -5,8 +5,8 @@ export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 # ZSH_THEME="random"
 # ZSH_THEME="flazz"
 # ZSH_THEME="rbates"
-ZSH_THEME="dpoggi"
-# ZSH_THEME="kafeitu"
+#ZSH_THEME="dpoggi"
+ZSH_THEME="kafeitu"
 # ZSH_THEME="fino"
 
 
