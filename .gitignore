@@ -2,3 +2,13 @@ Thumbs.db
 .DS_Store?
 .DS_Store
 .svn
+
+dotfiles/.ssh/*
+lucid.remote/.ssh/*
+magicbullet.local/.ssh/*
+blackbullet.local/.ssh/*
+silverbullet.local/.ssh/*
+tigger/.ssh/*
+dotfiles/.ssh/*
+#And Macs, you dog... 
+macs/.ssh/*
