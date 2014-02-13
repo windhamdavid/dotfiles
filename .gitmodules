@@ -1,3 +1,12 @@
 [submodule "salamander.remote/oh-my-zsh"]
 	path = salamander.remote/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "macs/.grunt-init/grunt-wp-plugin"]
+	path = macs/.grunt-init/grunt-wp-plugin
+	url = git@github.com:10up/grunt-wp-plugin.git
+[submodule "macs/.grunt-init/grunt-wp-theme"]
+	path = macs/.grunt-init/grunt-wp-theme
+	url = git@github.com:10up/grunt-wp-theme.git
+[submodule "macs/.grunt-init/underscores-wp-theme"]
+	path = macs/.grunt-init/underscores-wp-theme
+	url = git@github.com:sennza/underscores-wp-theme.git
