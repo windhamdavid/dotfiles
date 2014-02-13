@@ -10,3 +10,6 @@
 [submodule "macs/.grunt-init/underscores-wp-theme"]
 	path = macs/.grunt-init/underscores-wp-theme
 	url = git@github.com:sennza/underscores-wp-theme.git
+[submodule "macs/.grunt-init/grunt-init-gruntplugin"]
+	path = macs/.grunt-init/grunt-init-gruntplugin
+	url = git@github.com:gruntjs/grunt-init-gruntplugin.git
