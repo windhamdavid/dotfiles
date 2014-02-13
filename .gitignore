@@ -12,3 +12,9 @@ tigger/.ssh/*
 dotfiles/.ssh/*
 #And Macs, you dog... 
 macs/.ssh/*
+
+macs/.bash_history
+lucid.remote/.bash_history
+
+salamander.remote/.ssh/*
+salamander.remote/.bash_history
