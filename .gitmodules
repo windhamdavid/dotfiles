@@ -13,3 +13,6 @@
 [submodule "macs/.grunt-init/grunt-init-gruntplugin"]
 	path = macs/.grunt-init/grunt-init-gruntplugin
 	url = git@github.com:gruntjs/grunt-init-gruntplugin.git
+[submodule "macs/.grunt-init/grunt-init-gruntfile"]
+	path = macs/.grunt-init/grunt-init-gruntfile
+	url = git@github.com:gruntjs/grunt-init-gruntfile.git
