@@ -4,17 +4,28 @@ Thumbs.db
 .svn
 
 dotfiles/.ssh/*
-lucid.remote/.ssh/*
-magicbullet.local/.ssh/*
+tigger/.ssh/*
 blackbullet.local/.ssh/*
 silverbullet.local/.ssh/*
-tigger/.ssh/*
-dotfiles/.ssh/*
-#And Macs, you dog... 
-macs/.ssh/*
 
+magicbullet.local/.ssh/*
+magicbullet.local/.netrc
+magicbullet.local/.heroku/*
+magicbullet.local/.bash_history
+magicbullet.local/.zsh_history
+
+macs/.ssh/*
+macs/.netrc
+macs/.heroku/*
 macs/.bash_history
+macs/.grunt-init/*
+macs/.zsh_history
+macs/.android/*
+
+lucid.remote/.ssh/*
+lucid.remote/.zsh_history
 lucid.remote/.bash_history
 
 salamander.remote/.ssh/*
 salamander.remote/.bash_history
+salamander.remote/.zsh_history
