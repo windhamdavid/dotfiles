@@ -1,6 +1,9 @@
 ZSH=$HOME/.oh-my-zsh
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:/usr/local/share/npm/bin:$PATH"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/usr/local/git/bin:$PATH"
+export PATH=/usr/local/share/npm/bin:$PATH
+export NODE_PATH=/usr/local/lib/node_modules
 
 ZSH_THEME="dpoggi"
 export EDITOR='mate -w'
@@ -30,3 +33,15 @@ plugins=(git textmate ruby rails node)
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+bindkey -v
+
+bindkey '^P' up-history
+bindkey '^N' down-history
+bindkey '^?' backward-delete-char
+bindkey '^h' backward-delete-char
+bindkey '^w' backward-kill-word
+bindkey '^r' history-incremental-search-backward
+
+
+export KEYTIMEOUT=1
