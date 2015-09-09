@@ -5,6 +5,9 @@ export PATH="/usr/local/git/bin:$PATH"
 export PATH=/usr/local/share/npm/bin:$PATH
 export NODE_PATH=/usr/local/lib/node_modules
 
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 ZSH_THEME="dpoggi"
 export EDITOR='mate -w'
 DISABLE_AUTO_UPDATE="true"
