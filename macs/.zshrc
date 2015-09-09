@@ -8,6 +8,9 @@ export NODE_PATH=/usr/local/lib/node_modules
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+
 ZSH_THEME="dpoggi"
 export EDITOR='mate -w'
 DISABLE_AUTO_UPDATE="true"
@@ -35,7 +38,6 @@ plugins=(git textmate ruby rails node)
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 bindkey -v
 
