@@ -1,5 +1,26 @@
 set nocompatible
 
+" include Vundle 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-surround'
+Plugin 'jiangmiao/auto-pairs'
+
+call vundle#end()
+filetype plugin indent on
+" END Vundle 
+
+map <C-n> :NERDTreeToggle<CR>
+
+
+
 set number
 set ruler
 syntax on
