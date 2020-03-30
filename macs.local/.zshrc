@@ -24,10 +24,7 @@ DISABLE_AUTO_UPDATE="false"
 source $ZSH/oh-my-zsh.sh
 
 ##### PLUGINS ######
-#
 plugins=(history-substring-search git golang gulp grunt textmate)
-ZSH_COLORIZE_TOOL=chroma
-ZSH_COLORIZE_STYLE="sunburst"
 
 ###### LIST ######
 alias l='ls -lFh'     #size,show type,human readable
@@ -42,10 +39,31 @@ alias ga="git add"
 alias gaa="git add -A"
 alias gc="git commit -m '"
 alias gs="git status"
+alias gcm="git checkout master"
+alias gcd="git checkout dev"
+alias gmd="git merge dev"
 alias gpom="git push origin master"
 alias gpcm="git push code master"
 alias gpod="git push origin dev"
 alias gpcd="git push code dev"
+
+##### NPM #####
+alias nit="npm init --yes"
+alias not="npm outdated"
+alias nu="npm update"
+alias ni="npm install"
+alias nu="npm uninstall"
+alias nis="npm install --save"
+alias nus="npm uninstall --save"
+alias nid="npm install --save-dev"
+alias nud="npm uninstall --save-dev"
+alias nip="npm install --save-prod"
+alias nup="npm uninstall --save-prod"
+
+##### GULP ######
+alias gr="gulp run"
+alias gb="gulp build"
+alias gcl="gulp clean"
 
 ####### Laravel ########
 alias pa='php artisan'
@@ -111,3 +129,6 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 
 export KEYTIMEOUT=1
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
