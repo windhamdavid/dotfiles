@@ -3,16 +3,22 @@ Thumbs.db
 .DS_Store
 .svn
 
-dotfiles/.ssh/*
+ovid.local/.ssh/*
+macs.local/.ssh/*
+magic.local/.ssh/*
+kora.local/.ssh/*
 tigger/.ssh/*
 blackbullet.local/.ssh/*
 silverbullet.local/.ssh/*
 
-magicbullet.local/.ssh/*
-magicbullet.local/.netrc
-magicbullet.local/.heroku/*
-magicbullet.local/.bash_history
-magicbullet.local/.zsh_history
+ovid.local/.ssh/*
+ovid.local/.zsh_history
+
+magic.local/.ssh/*
+magic.local/.netrc
+magic.local/.heroku/*
+magic.local/.bash_history
+magic.local/.zsh_history
 
 macs/.ssh/*
 macs/.netrc
@@ -29,3 +35,11 @@ lucid.remote/.bash_history
 salamander.remote/.ssh/*
 salamander.remote/.bash_history
 salamander.remote/.zsh_history
+
+woozer.remote/.ssh/*
+woozer.remote/.zsh_history
+woozer.remote/.bash_history
+
+zeke.remote/.ssh/*
+zeke.remote/.zsh_history
+zeke.remote/.bash_history
