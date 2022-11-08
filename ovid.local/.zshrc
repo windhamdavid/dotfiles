@@ -40,7 +40,6 @@ export KEYTIMEOUT=1
 # COMPLETION_WAITING_DOTS="true"
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 # export MANPATH="/usr/local/man:$MANPATH"
-# export ARCHFLAGS="-arch x86_64"
 # CASE_SENSITIVE="true"
 # DISABLE_AUTO_UPDATE="true"
 # export UPDATE_ZSH_DAYS=33
@@ -53,6 +52,7 @@ export KEYTIMEOUT=1
 #   export EDITOR='mvim'
 # fi
 # export ARCHFLAGS="-arch x86_64"
+# export ARCHFLAGS="-arch arm64"
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 source $ZSH/oh-my-zsh.sh
@@ -76,8 +76,10 @@ alias gs="git status"
 alias gcm="git checkout master"
 alias gcd="git checkout dev"
 alias gmd="git merge dev"
-alias gpom="git push origin master"
-alias gpcm="git push code master"
+alias gpom="git push origin main"
+alias gpcm="git push code main"
+alias gpor="git push origin master"
+alias gpcr="git push code master"
 alias gpod="git push origin dev"
 alias gpcd="git push code dev"
 
@@ -125,8 +127,16 @@ _laravel () {
 compdef _laravel artisan
 compdef _laravel pa
 
+export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh)"
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
