@@ -13,4 +13,4 @@
 - .nvm ( Node Version Manager )
 - .rvm ( Ruby Version Manager )
 - Homebrew package manager
-- Lots of Alias' for Git, Brew, NPM, Gulp, Git
+- Lots of Alias' for Git, Brew, NPM, Gulp, etc...
