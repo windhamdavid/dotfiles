@@ -5,11 +5,12 @@ ZSH_THEME="dpoggi"
 
 ###### Plugins ######
 plugins=(
+  history-substring-search
   git
   gulp
   grunt
-  vscode
-  history-substring-search
+  vs
+  yarn
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
@@ -105,6 +106,12 @@ alias nid="npm install --save-dev"
 alias nud="npm uninstall --save-dev"
 alias nip="npm install --save-prod"
 alias nup="npm uninstall --save-prod"
+
+##### YARN #####
+alias ya='yarn add'
+alias yi='yarn install'
+alias yit='yarn init'
+alias yr='yarn remove'
 
 ##### GULP ######
 alias gr="gulp run"
