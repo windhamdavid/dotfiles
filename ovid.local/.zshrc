@@ -68,14 +68,16 @@ alias lt='ls -ltFh'   #long list,sorted by date,show type,human readable
 alias ll='ls -l'      #long list
 
 ###### GIT #######
-#alias zshconfig="mate ~/.zshrc"
 alias ga="git add"
 alias gaa="git add -A"
 alias gc="git commit -m '"
 alias gs="git status"
-alias gcm="git checkout master"
+alias gcm="git checkout main"
 alias gcd="git checkout dev"
 alias gmd="git merge dev"
+alias gmm="git merge main"
+alias gpsm="git push origin stage"
+alias gppm="git push origin prod"
 alias gpom="git push origin main"
 alias gpcm="git push code main"
 alias gprm="git push org main"
