@@ -3,13 +3,10 @@ Thumbs.db
 .DS_Store
 .svn
 
-ovid.local/.ssh/*
-macs.local/.ssh/*
-magic.local/.ssh/*
+silverbullet.local/.ssh/*
+blackbullet.local/.ssh/*
 kora.local/.ssh/*
 tigger/.ssh/*
-blackbullet.local/.ssh/*
-silverbullet.local/.ssh/*
 
 ovid.local/.ssh/*
 ovid.local/.zsh_history
@@ -43,3 +40,15 @@ woozer.remote/.bash_history
 zeke.remote/.ssh/*
 zeke.remote/.zsh_history
 zeke.remote/.bash_history
+
+ovid.local/.ssh/*
+ovid.local/.zsh_history
+ovid.local/.bash_history
+
+squid.remote/.ssh/*
+squid.remote/.zsh_history
+squid.remote/.bash_history
+
+stu.local/.ssh/*
+stu.local/.zsh_history
+stu.local/.bash_history
