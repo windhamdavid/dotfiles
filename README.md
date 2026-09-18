@@ -2,6 +2,7 @@
 
 ## Log 
 
+- **26/09/18** - adding editor settings for VSCode and Zed to stu 🖥️ while trying out Zed.
 - **26/08/13** - adding cotton 🐈, the local Ubuntu box under the desk that mirrors production.
 - **25/04/06** - adding squid 🦑 and stu 🪩
 - **24/11/14** - adding a new mini to the mix in a studo move and need an easier way to sync my homebrew packages from [Ovid](https://davidawindham.com/til/docs/computers/ovid).
