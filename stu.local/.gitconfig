@@ -1,0 +1,6 @@
+[user]
+	name = windhamdavid
+	email = david@davidawindham.com
+	signingkey = 98F8CF5F1765198C
+[init]
+	defaultBranch = main
