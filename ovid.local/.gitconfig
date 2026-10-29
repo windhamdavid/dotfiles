@@ -1,0 +1,31 @@
+[credential]
+	helper = osxkeychain
+[user]
+	name = David Windham
+	email = windhamdavid@users.noreply.github.com
+[core]
+	excludesfile = /Users/david/.gitignore_global
+	editor = vscode --wait
+	compression = 0
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait -diff --new-window $LOCAL $REMOTE
+[alias]
+	d = difftool
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait --new-window $MERGED
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "lfs"]
+	smudge = git-lefs smudge %f
+	required = true
+	clean = git-lfs clean -- %f
+[http]
+	postBuffer = 157286400
+[pack]
+	window = 1

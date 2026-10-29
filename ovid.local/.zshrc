@@ -5,12 +5,12 @@ ZSH_THEME="dpoggi"
 
 ###### Plugins ######
 plugins=(
-  history-substring-search
   git
   gulp
   grunt
-  vs
-  yarn
+  textmate
+  vscode
+  history-substring-search
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
@@ -111,12 +111,6 @@ alias nud="npm uninstall --save-dev"
 alias nip="npm install --save-prod"
 alias nup="npm uninstall --save-prod"
 
-##### YARN #####
-alias ya='yarn add'
-alias yi='yarn install'
-alias yit='yarn init'
-alias yr='yarn remove'
-
 ##### GULP ######
 alias gr="gulp run"
 alias gb="gulp build"
@@ -138,7 +132,6 @@ _laravel () {
 compdef _laravel artisan
 compdef _laravel pa
 
-export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export NVM_DIR="$HOME/.nvm"
@@ -164,4 +157,5 @@ export PATH="/opt/homebrew/opt/php@8.3/sbin:$PATH"
 #export PATH="/opt/homebrew/opt/php/bin:$PATH"
 #export PATH="/opt/homebrew/opt/php/sbin:$PATH"
 
-export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
